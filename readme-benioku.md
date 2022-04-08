@@ -1,5 +1,5 @@
-- 1. Turkish Lua Service
-- 1. Türk Lua Servisi
+- First Turkish Lua Service
+- Birinci Türk Lua Servisi
 
 discord.gg/RpsXKYmw6H
 discord.gg/RpsXKYmw6H
