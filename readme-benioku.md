@@ -37,7 +37,7 @@ Where ? - You can use that scripts in roblox. Because they are made of a code la
 Why ? - Because our GUI's and Script's are good and not expensive at all.
 When ? - When Roblox doesn't patch the game :)
 
-3 - discord.gg/RpsXKYmw6H for more info.
+3 - https://discord.gg/RpsXKYmw6H for more info.
 
 - Privacy -
  
