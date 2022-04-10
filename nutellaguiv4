@@ -1,0 +1,193 @@
+--[[
+
+                                    (       KULLANIM KULAVUZU        )
+
+Nutella GUI v4 by ch_s.So rare dont leak.
+
+All Script Credit to Owners who Wrote the script.
+
+
+Türk,Övün,Çalış,Güven.      -            ,                      ,                          ,                        .																											 ]] return{
+
+    local NutellaGUIv4 = Instance.new("ScreenGui")
+    local Frame = Instance.new("Frame")
+    local UIGradient = Instance.new("UIGradient")
+    local TextLabel = Instance.new("TextLabel")
+    local UIGradient_2 = Instance.new("UIGradient")
+    local TextLabel_2 = Instance.new("TextLabel")
+    local UIGradient_3 = Instance.new("UIGradient")
+    local ImageLabel = Instance.new("ImageLabel")
+    local InfiniteYield = Instance.new("TextButton")
+    local ScriptGvenlik = Instance.new("TextButton")
+    local LoudKFC = Instance.new("TextButton")
+    local CMDX = Instance.new("TextButton")
+    local TrkvnalGven = Instance.new("Frame")
+    local UIGradient_4 = Instance.new("UIGradient")
+    local TextLabel_3 = Instance.new("TextLabel")
+    local UICorner = Instance.new("UICorner")
+        
+    -- ALL THINGS MADE BY CH_S	
+    
+    NutellaGUIv4.Name = "Nutella GUI v4"
+    NutellaGUIv4.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+    NutellaGUIv4.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+        
+    -- ch_s	
+    UICorner.Parent = TextLabel
+    UICorner.CornerRadius = UDim.new(0, 9)
+        
+    Frame.Parent = NutellaGUIv4
+    Frame.BackgroundColor3 = Color3.fromRGB(109, 115, 127)
+    Frame.Position = UDim2.new(0.00607902743, 0, 0.634394884, 0)
+    Frame.Size = UDim2.new(0, 296, 0, 281)
+    
+    UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(112, 108, 98)), ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255))}
+    UIGradient.Parent = Frame
+    
+    TextLabel.Parent = Frame
+    TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    TextLabel.BackgroundTransparency = 1.000
+    TextLabel.Position = UDim2.new(0.0979729891, 0, -0.0391459092, 0)
+    TextLabel.Size = UDim2.new(0, 200, 0, 50)
+    TextLabel.Font = Enum.Font.SourceSans
+    TextLabel.Text = "Nutella GUI v4"
+    TextLabel.TextColor3 = Color3.fromRGB(116, 120, 121)
+    TextLabel.TextSize = 14.000
+
+    UICorner_2.Parent = TextLabel
+    UICorner_2.CornerRadius = UDim.new(0, 9)
+        
+    -- AloneVisitor	
+        
+    UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(49, 82, 91)), ColorSequenceKeypoint.new(0, Color3.fromRGB(126, 172, 184)), ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255))}
+    UIGradient_2.Parent = TextLabel
+        
+    -- LuciferDynos	
+        
+    TextLabel_2.Parent = Frame
+    TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    TextLabel_2.BackgroundTransparency = 1.000
+    TextLabel_2.Position = UDim2.new(0.628378391, 0, 0.900355875, 0)
+    TextLabel_2.Size = UDim2.new(0, 175, 0, 34)
+    TextLabel_2.Font = Enum.Font.SourceSans
+    TextLabel_2.Text = "by ch_s"
+    TextLabel_2.TextColor3 = Color3.fromRGB(196, 203, 204)
+    TextLabel_2.TextSize = 14.000
+        
+    -- BlackDynos
+    UICorner_3.Parent = TextLabel_2
+    UICorner_3.CornerRadius = UDim.new(0, 9)
+        
+    UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(97, 160, 179)), ColorSequenceKeypoint.new(0, Color3.fromRGB(126, 172, 184)), ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255))}
+    UIGradient_3.Parent = TextLabel_2
+    
+    ImageLabel.Parent = Frame
+    ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    ImageLabel.BackgroundTransparency = 1.000
+    ImageLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+    ImageLabel.Position = UDim2.new(0.0270270277, 0, 0.0213523135, 0)
+    ImageLabel.Size = UDim2.new(0, 80, 0, 70)
+    ImageLabel.Image = "http://www.roblox.com/asset/?id=7773696544"
+    
+    InfiniteYield.Name = "InfiniteYield"
+    InfiniteYield.Parent = Frame
+    InfiniteYield.BackgroundColor3 = Color3.fromRGB(112, 108, 98)
+    InfiniteYield.BackgroundTransparency = 0.800
+    InfiniteYield.BorderColor3 = Color3.fromRGB(27, 42, 53)
+    InfiniteYield.BorderSizePixel = 0
+    InfiniteYield.Position = UDim2.new(0.05067572, 0, 0.316725969, 0)
+    InfiniteYield.Size = UDim2.new(0, 123, 0, 50)
+    InfiniteYield.Font = Enum.Font.SourceSans
+    InfiniteYield.Text = "Infinite Yield"
+    InfiniteYield.TextColor3 = Color3.fromRGB(0, 0, 0)
+    InfiniteYield.TextSize = 14.000
+    InfiniteYield.MouseButton1Down:connect(function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end)
+    
+    ScriptGvenlik.Name = "Script Güvenlik"
+    ScriptGvenlik.Parent = Frame
+    ScriptGvenlik.BackgroundColor3 = Color3.fromRGB(112, 108, 98)
+    ScriptGvenlik.BackgroundTransparency = 0.800
+    ScriptGvenlik.BorderColor3 = Color3.fromRGB(27, 42, 53)
+    ScriptGvenlik.BorderSizePixel = 0
+    ScriptGvenlik.Position = UDim2.new(0.354729772, 0, 0.0925266892, 0)
+    ScriptGvenlik.Size = UDim2.new(0, 144, 0, 50)
+    ScriptGvenlik.Font = Enum.Font.SourceSans
+    ScriptGvenlik.Text = "Script Güvenlik ( Gerekli )"
+    ScriptGvenlik.TextColor3 = Color3.fromRGB(0, 0, 0)
+    ScriptGvenlik.TextSize = 14.000
+    ScriptGvenlik.MouseButton1Down:connect(function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/jaackkiscool/Script-Secure-v1.2/main/ssl.lua',true))()
+    end)
+    
+    LoudKFC.Name = "Loud KFC"
+    LoudKFC.Parent = Frame
+    LoudKFC.BackgroundColor3 = Color3.fromRGB(112, 108, 98)
+    LoudKFC.BackgroundTransparency = 0.800
+    LoudKFC.BorderColor3 = Color3.fromRGB(27, 42, 53)
+    LoudKFC.BorderSizePixel = 0
+    LoudKFC.Position = UDim2.new(0.50337851, 0, 0.316725969, 0)
+    LoudKFC.Size = UDim2.new(0, 140, 0, 50)
+    LoudKFC.Font = Enum.Font.SourceSans
+    LoudKFC.Text = "Loud KFC Music ( Not Local )"
+    LoudKFC.TextColor3 = Color3.fromRGB(0, 0, 0)
+    LoudKFC.TextSize = 14.000
+    LoudKFC.MouseButton1Down:connect(function()
+        -- Buraya geldiysen dün bilgisayarına virüs bulaştı :D.
+        local i=Instance.new("Sound")
+        i.Parent=game:GetService("Workspace")
+        i.Volume=math.huge;
+        i.SoundId="rbxassetid://7105525495"
+        i.Looped=true;
+        i.Playing=true;
+    end)
+    
+    CMDX.Name = "CMD-X"
+    CMDX.Parent = Frame
+    CMDX.BackgroundColor3 = Color3.fromRGB(112, 108, 98)
+    CMDX.BackgroundTransparency = 0.800
+    CMDX.BorderColor3 = Color3.fromRGB(27, 42, 53)
+    CMDX.BorderSizePixel = 0
+    CMDX.Position = UDim2.new(0.0506757274, 0, 0.537366569, 0)
+    CMDX.Size = UDim2.new(0, 123, 0, 50)
+    CMDX.Font = Enum.Font.SourceSans
+    CMDX.Text = "CMD-X"
+    CMDX.TextColor3 = Color3.fromRGB(0, 0, 0)
+    CMDX.TextSize = 14.000
+    CMDX.MouseButton1Down:connect(function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end)
+    
+    TrkvnalGven.Name = "Türk,Övün,Çalış,Güven."
+    TrkvnalGven.Parent = NutellaGUIv4
+    TrkvnalGven.BackgroundColor3 = Color3.fromRGB(109, 115, 127)
+    TrkvnalGven.Position = UDim2.new(0.0141843967, 0, 0.0254777074, 0)
+    TrkvnalGven.Size = UDim2.new(0, 388, 0, 207)
+    
+    UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(112, 108, 98)), ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255))}
+    UIGradient_4.Parent = TrkvnalGven
+    
+    TextLabel_3.Parent = TrkvnalGven
+    TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    TextLabel_3.BackgroundTransparency = 1.000
+    TextLabel_3.Position = UDim2.new(0.27404967, 0, 0.415132493, 0)
+    TextLabel_3.Size = UDim2.new(0, 175, 0, 34)
+    TextLabel_3.Font = Enum.Font.SourceSans
+    TextLabel_3.Text = "Türk,Övün,Çalış,Güven."
+    TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+    TextLabel_3.TextSize = 46.000
+    
+    -- Scripts:
+    
+    local function HUCAZ_fake_script() -- TrkvnalGven.Script 
+        local script = Instance.new('Script', TrkvnalGven)
+    
+        script.Parent.Visible = false
+        wait (1) ----------- How long it will take for the GUI to appear
+        script.Parent.Visible = true
+        wait (8) ----------- How long it will take for the GUI to disappear
+        script.Parent.Visible = false
+    end
+    coroutine.wrap(HUCAZ_fake_script)()
+    
